@@ -1,0 +1,50 @@
+.sectionFondo{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url(../assets/fondo.jpg);
+}
+
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.box2{
+    color: white;
+    font-size: 26px;
+    margin: 60px;
+    
+}
+
+.box2 img{
+    width: 300px;
+}
+
+
+.section{
+    width: 100%;
+    height: 100%;
+}
+
+.section h2{
+    font-size: 38px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.article{
+    text-align: center;
+    font-size: 24px;
+    margin: 80px;
+    
+}
+
+
+
+
+

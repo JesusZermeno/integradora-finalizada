@@ -1,0 +1,148 @@
+.section{
+    width: 100%;
+    height: 100%;
+}
+
+.section h2{
+    font-size: 38px;
+    padding: 50px;  
+    margin: 0;  
+}
+
+.img{
+    text-align: center;
+    
+}
+
+.img img{
+    width: auto;
+    height: 300px;
+}
+
+.article{
+    
+    font-size: 24px;
+    margin: 80px;
+    
+}
+
+/*==============================*/
+
+.container2 {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 200px auto;
+}
+
+.container2 .box {
+    position: relative;
+    width: calc(600px - 30px);
+    height: calc(400px - 80px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container2 .box .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container2 .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container2 .box .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container2 .box:hover .icon .fa {
+    font-size: 40px;
+}
+
+.container2 .box .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container2 .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+
+.container2 .box .content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container2 .box .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container2 .box:nth-child(1) .icon {
+    background: #28B463;
+}
+
+.container2 .box:nth-child(1) {
+    background: #2ECC71;
+}
+
+.container2 .box:nth-child(2) .icon {
+    background: #2E86C1 ;
+}  
+
+.container2 .box:nth-child(2) {
+    background: #3498DB;
+}
+
+
+/*==============================*/
+
+.section2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.section2 h2{
+    font-size: 38px;
+    padding: 50px;  
+    text-align: center;  
+}
+
+.icon{
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+}

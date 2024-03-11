@@ -1,0 +1,93 @@
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.navOpen{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navLink{
+    display: flex;
+    font-size: 2em;
+    font-weight: 400;
+    color: #000;
+    padding-top: 90px;
+
+}
+
+.navLink:hover{
+    cursor: pointer;
+}
+
+.border{
+    display: flex;
+    height: 1px;
+    animation-name: animacionborde;
+    animation-duration: 1s;
+    background-color: rgb(57, 145, 115);
+}
+
+@keyframes animacionborder{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 1px;
+    }
+}
+
+.logo{
+    display: flex;
+    color: #000;
+    font-weight: 600;
+}
+
+@media (min-width: 800px){
+    .logo{
+        font-size: 1.5em;
+    }
+    .navBar{
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+    }
+    .linksContainer{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .navLink{
+        font-weight: 600;
+        padding-top: 4px;
+        font-size: 1.4em;
+        transition: 0.5s;
+    }
+    .navLink:hover{
+        font-size: 1.5em;
+    }
+    /*.navOnScroll{
+        align-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        background-color: beige;
+    }*/
+}
+
+/*.navOnScroll{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}*/

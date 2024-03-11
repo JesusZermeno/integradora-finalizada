@@ -1,0 +1,44 @@
+.section{
+    width: 100%;
+    height: 100%;
+}
+
+.section h2{
+    font-size: 38px;
+    padding: 50px;
+    margin: 0;   
+}
+
+.img{
+    text-align: center;
+    margin: 50px;
+    
+}
+
+img{
+    width: 900px;
+    height: auto;
+}
+
+.cr{
+    text-align: center;
+
+}
+
+.cr h2{
+    margin: 0;
+    
+}
+
+.box{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box2{
+    color: #000;
+    font-size: 20px;
+    margin: 50px;
+}

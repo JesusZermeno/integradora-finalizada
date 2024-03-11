@@ -1,0 +1,66 @@
+.piepagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.piepagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piepagina .grupo1 .box1 figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piepagina .grupo1 .box1 figure img {
+    width: 200px;
+    height: 100px;
+}
+
+.piepagina .grupo1 .box1 h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.piepagina .grupo1 .box1 p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.piepagina .grupo1 .redsocial a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.piepagina .grupo1 .redsocial a:hover {
+    color: aqua;
+}
+
+.piepagina .grupo2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.piepagina .grupo2 small {
+    font-size: 15px;
+}
