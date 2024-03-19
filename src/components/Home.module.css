@@ -45,6 +45,28 @@
 }
 
 
+@media only screen and (max-width: 800px) {
+    .box2 {
+        font-size: 20px; /* Reducir el tamaño de fuente */
+        margin: 30px; /* Reducir el margen */
+    }
+
+    .box2 img {
+        width: 200px; /* Reducir el tamaño de la imagen */
+    }
+
+    .section h2 {
+        font-size: 28px; /* Reducir el tamaño de fuente */
+        padding: 20px; /* Reducir el relleno */
+    }
+
+    .article {
+        font-size: 20px; /* Reducir el tamaño de fuente */
+        margin: 40px; /* Reducir el margen */
+    }
+}
+
+
 
 
 

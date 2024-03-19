@@ -19,24 +19,20 @@ function Product() {
               <p>Material: Polietileno de alta densidad (PEAD)<br />Capacidad: 1000 litros.<br /> Dimensiones: 120 cm de diámetro x 200 cm de altura.<br /> Tapa abatible con sistema de sellado hermético</p>
             
               <h3>Beneficios</h3>
-              <p>Ahorro de agua: Recolección de agua de lluvia para<br /> su uso posterior. <br />Seguridad: Elimina la necesidad de subir a los techos. <br />Salud: Agua potable libre de enfermedades. <br />Ecología: Reduce el consumo de agua potable<br /> de la red pública. <br />Economía: Ahorro en la factura del agua.</p>
+              <p>Ahorro de agua: Recolección de agua de lluvia para<br /> su uso posterior. <br />Seguridad: Elimina la necesidad de subir a los techos. <br />Ecología: Reduce el consumo de agua potable<br /> de la red pública. <br />Economía: Ahorro en la factura del agua.</p>
             
             
-            <h3>Aplicación para controlar el tinaco:</h3>
-              <p>Abrir y cerrar la tapa. <br />Monitorizar el nivel de agua. <br />Recibir notificaciones sobre el estado del agua</p>
+            
             </div>
             <div className={styles.box2}>
+            <h3>Aplicación para controlar el tinaco:</h3>
+              <p>Abrir y cerrar la tapa. <br />Monitorizar el nivel de agua. <br />Recibir notificaciones sobre el estado del agua</p>
            
             
             <h3>Conclusiones</h3>
               <p>El proyecto TINACO LIAJJ tiene un gran potencial<br /> para mejorar <br />la calidad de vida de las personas y contribuir a <br />la preservación del medio ambiente. Se espera que <br />el proyecto <br />sea un éxito y que se pueda implementar a<br /> gran escala en el futuro.</p>
             
-            <h3>Link de compra</h3>
-              <p></p>
-
-            <h3>Link de descarga app</h3>
-              <p></p>
-              <br />
+            
             </div>
           </div>
         </section>

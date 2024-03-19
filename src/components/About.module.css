@@ -146,3 +146,22 @@
     width: 300px;
     height: 100px;
 }
+
+@media only screen and (max-width: 800px) {
+    .article{
+    
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .container2 {
+        margin: 50px ; /* Reducir margen superior */
+        text-align: center;
+    }
+
+    .container2 .box {
+        width: calc(20% - 10px); /* Ocupar todo el ancho disponible */
+        height: 500px;
+        margin: 20px ; /* Ajustar margen vertical */
+    }
+}

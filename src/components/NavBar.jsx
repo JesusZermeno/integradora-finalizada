@@ -3,11 +3,12 @@ import { Link } from 'react-scroll';
 import styles from './NavBar.module.css';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
-//import appFirebase from '../credenciales'
-//import {getAuth, signOut} from 'firebase/auth'
-//const auth = getAuth(appFirebase)
 
-const NavBar = () => {
+import appFirebase from '../credenciales'
+import {getAuth, signOut} from 'firebase/auth'
+const auth = getAuth(appFirebase)
+
+const NavBar = ({correoUsuario}) => {
     const[navBarOpen, setNavBarOpen] = useState(false);
 
     const [windowDimension, setWindowDimension] = useState({
@@ -46,7 +47,7 @@ const NavBar = () => {
     ];
 
     return( 
-    <div className={!navBarOpen ? styles.NavBar : styles.navOpen}>
+    <div className={!navBarOpen ? styles.navBar : styles.navOpen}>
 
         {!navBarOpen &&<p className={styles.logo}>LIAJJ | Ecoinnova</p>}
         {!navBarOpen && windowDimension.width < 800 ? (
@@ -68,13 +69,22 @@ const NavBar = () => {
                     duration={0}
                     className={styles.navLink}
                     >
-                        {x.link==="Nosotros" ? "Nosotros" : x.link}
+                        {x.link}
                     </Link>
                     <div className={styles.border}></div>
                 </div>
                 
             ))}
-            
+            <div class="dropdown mt-3">
+                <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                    Cuenta
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item disabled" href="#">{correoUsuario}</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li onClick={() =>signOut(auth)}><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                </ul>
+            </div>
     
         </ul>
         ))}

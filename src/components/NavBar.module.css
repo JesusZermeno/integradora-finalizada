@@ -1,13 +1,17 @@
-.NavBar{
+.navBar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    
+    
+    
+    
 }
 
 .navOpen{
     display: flex;
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     background-color: beige;
@@ -17,10 +21,12 @@
 
 .navLink{
     display: flex;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #000;
     padding-top: 90px;
+    text-decoration: none;
+    margin-top: 10px;
 
 }
 
@@ -49,6 +55,7 @@
     display: flex;
     color: #000;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 @media (min-width: 800px){
@@ -91,3 +98,17 @@
     align-items: center;
     background-color: beige;
 }*/
+
+
+.contactLink {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: #A0C474;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 3px;
+    cursor: pointer;
+  }

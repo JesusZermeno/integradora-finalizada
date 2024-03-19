@@ -5,13 +5,13 @@ import appFirebase from '../src/credenciales'
 import {getAuth, onAuthStateChanged} from 'firebase/auth'
 const auth = getAuth(appFirebase)
 
+
+
 //importar nuestro componentes
 import Login from '../src/components/Login'
 import Home from '../src/components/Home'
 
-
 import './App.css'
-
 
 function App() {
 

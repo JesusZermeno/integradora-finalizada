@@ -42,3 +42,30 @@ img{
     font-size: 20px;
     margin: 50px;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+    .section h2 {
+        font-size: 38px; /* Reducir tamaño de fuente */
+        padding: 50px; /* Reducir relleno */
+    }
+
+    .img {
+        margin: 20px; /* Reducir margen */
+    }
+
+    img {
+        width: 100%; /* Ajustar imagen al ancho del contenedor */
+        max-width: none; /* Eliminar el ancho máximo */
+    }
+
+    .cr h2 {
+        font-size: 24px; /* Reducir tamaño de fuente */
+    }
+
+    .box2 {
+        font-size: 16px; /* Reducir tamaño de fuente */
+        margin: 20px; /* Reducir margen */
+    }
+}
