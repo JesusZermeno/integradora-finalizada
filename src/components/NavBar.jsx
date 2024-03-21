@@ -4,6 +4,9 @@ import styles from './NavBar.module.css';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { AiOutlineClose } from 'react-icons/ai';
 
+//=================
+import {useScrollPosition} from '../hooks/scrollPosition';
+
 import appFirebase from '../credenciales'
 import {getAuth, signOut} from 'firebase/auth'
 const auth = getAuth(appFirebase)
@@ -46,8 +49,18 @@ const NavBar = ({correoUsuario}) => {
         },
     ];
 
-    return( 
-    <div className={!navBarOpen ? styles.navBar : styles.navOpen}>
+    //===============scroll
+    const scrollPosition = useScrollPosition ();
+
+    return( //============
+        <div className= {
+            navBarOpen
+                ? styles.navOpen 
+                : scrollPosition > 0
+                ? styles.navOnScroll
+                : styles.navBar
+            }
+        >
 
         {!navBarOpen &&<p className={styles.logo}>LIAJJ | Ecoinnova</p>}
         {!navBarOpen && windowDimension.width < 800 ? (

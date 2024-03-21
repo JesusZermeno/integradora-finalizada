@@ -19,13 +19,6 @@
     margin-bottom: 20px;
 }
 
-/*.text{
-    color: lightblue;
-    font-size: 38px;
-    font-weight: 700;
-    text-align: center;
-}*/
-
 
 
 .cajatexto{
@@ -56,33 +49,7 @@
     color: white;
     font-size: 16px;
 }
-/*
-.btn-container{
-    display: flex;
-    gap: 30px;
-    margin: 30px auto;
 
-}
-
-.btnform2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 40px;
-    color: #fff;
-    background: #0D6EFD;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.gray{
-    background: #EAEAEA;
-    color: #676767;
-}
-*/
 
 .texto{
     font-size: 16px;

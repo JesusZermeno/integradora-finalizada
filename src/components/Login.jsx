@@ -49,24 +49,7 @@ export const Login = () => {
           }
         };
 
-/*
-        if(registrando) {
-            try {
-                await createUserWithEmailAndPassword(auth, correo, contraseña) 
-            } catch (error) {
-                alert("Asegurese que la contraseña tenga más de 8 caracteres")
-            }
-        }
-        else{
-            try {
-                await signInWithEmailAndPassword(auth, correo, contraseña)     
-            } catch (error) {
-                alert("El correo o la contraseña son incorrectos")
-            }
-            
-        }
-    }
-*/
+
 
   return (
     <div>
